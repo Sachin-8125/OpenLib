@@ -7,13 +7,18 @@
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
   "dependencies": {
+    "@prisma/adapter-neon": "^6.16.2",
+    "@prisma/adapter-pg": "^6.16.2",
     "@prisma/client": "^6.16.2",
+    "bcrypt": "^6.0.0",
     "hono": "^4.9.8",
     "pg": "^8.16.3",
     "prisma": "^6.16.2"
   },
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
     "@types/node": "^24.5.2",
+    "@types/pg": "^8.15.5",
     "wrangler": "^4.4.0"
   }
 }
